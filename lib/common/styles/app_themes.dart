@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'app_text_theme.dart';
 
-const appPrimaryColor = Color.fromARGB(255, 251, 56, 56);
+const appPrimaryColor = Color(0xFFFB3838);
 
 abstract class AppThemes {
   static final light = _appTheme(brightness: Brightness.light);
